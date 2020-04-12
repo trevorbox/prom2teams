@@ -248,7 +248,8 @@ To run the test suite you should type the following:
 
 ```bash
 // After cloning prom2teams :)
-$ python3 -m unittest discover tests
+$ pip install -r requirements.txt
+$ python -m unittest discover tests
 ```
 
 ## Built With
